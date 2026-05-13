@@ -1,0 +1,98 @@
+--- TASK 2.2 ABOUT ---
+### Task 2.2 — Build the `/about` page
+
+**File**: `app/about/page.tsx`
+
+**Page metadata**:
+```ts
+export const metadata = {
+  title: "Our Story | Artisan Crumbs",
+  description: "Meet the team behind Artisan Crumbs — a family-run bakery committed to organic ingredients, handcrafted technique, and unforgettable celebration cakes.",
+}
+```
+
+**Dummy data to add to `/data/about.ts`**:
+
+```ts
+export const founderStory = {
+  name: "Clara Mendez",
+  title: "Founder & Head Pastry Chef",
+  bio: `Clara started Artisan Crumbs in 2017 out of a 200-square-foot home kitchen and a single stand mixer.
+  After a decade of professional pastry training in San Francisco and Lyon, she returned to Brookside
+  determined to bring honest, seasonal, handcrafted baking to her community. Today, Artisan Crumbs
+  operates out of a full commercial kitchen and has served over 1,200 custom orders — from intimate
+  birthday cakes to 500-guest wedding dessert tables.`,
+  image: "/images/founder.jpg", // placeholder image path
+}
+
+export const milestones = [
+  { year: "2017", label: "Founded in a home kitchen" },
+  { year: "2019", label: "Moved to commercial kitchen space" },
+  { year: "2021", label: "500th custom order milestone" },
+  { year: "2023", label: "Launched wedding & events division" },
+  { year: "2024", label: "1,200+ orders fulfilled" },
+]
+
+export const values = [
+  { title: "Organic Ingredients", description: "We source seasonal, locally grown produce and certified organic dairy wherever possible." },
+  { title: "Made to Order", description: "Nothing sits on a shelf. Every item is baked fresh to your timeline." },
+  { title: "Inclusive Baking", description: "We accommodate nut-free, gluten-free, dairy-free, and vegan requests without compromise on flavour." },
+  { title: "Community First", description: "We partner with local farms, event planners, and small venues to keep business close to home." },
+]
+```
+
+**Page sections**:
+1. Hero with founder image and name/title
+2. Founder story narrative block
+
+--- TASK 2.3 FAQ ---
+**Page metadata**:
+```ts
+export const metadata = {
+  title: "FAQ | Artisan Crumbs",
+  description: "Answers to the most common questions about ordering custom cakes, lead times, dietary accommodations, delivery, and more.",
+}
+```
+
+**Dummy data in `/data/faq.ts`** — implement as an accordion (shadcn/ui `Accordion` component):
+
+```ts
+export const faqs = [
+  {
+    question: "How far in advance do I need to order?",
+    answer: "For standard custom cakes, we ask for at least 2 weeks' notice. For wedding or large event orders, we recommend booking 4–8 weeks ahead. We occasionally accommodate rush orders — contact us to check availability."
+  },
+  {
+    question: "Do you offer tastings?",
+    answer: "Yes! We offer complimentary 30-minute tasting consultations for wedding and large event orders. For smaller orders, tasting boxes are available for purchase. Contact us to schedule."
+  },
+  {
+    question: "What is your cancellation and refund policy?",
+    answer: "Orders cancelled more than 7 days before the event receive a full refund minus the 50% deposit. Orders cancelled within 7 days are non-refundable. We will always try to reschedule where possible."
+  },
+  {
+    question: "Do you deliver?",
+    answer: "We offer local delivery within a 25-mile radius of Brookside, CA. Delivery fees are calculated at checkout based on distance. We also offer contactless pickup from our kitchen by appointment."
+  },
+  {
+    question: "Can you accommodate dietary restrictions?",
+    answer: "Yes — we regularly produce nut-free, gluten-free, dairy-free, and fully vegan items. Please note our kitchen does handle nuts and gluten, so we cannot guarantee a fully allergen-free environment. Always disclose severe allergies at the time of inquiry."
+  },
+  {
+    question: "How does pricing work for custom orders?",
+    answer: "Custom cake pricing depends on size, tier count, design complexity, and flavour. Our starting price for a custom single-tier celebration cake is $85. Multi-tier wedding cakes start at $350. We provide a full written quote after your consultation."
+  },
+  {
+    question: "What payment methods do you accept?",
+    answer: "We accept bank transfer, credit/debit card, and cash. A 50% deposit is required to confirm your booking, with the remaining balance due 48 hours before delivery or pickup."
+  },
+  {
+    question: "Can I see more examples of your work?",
+    answer: "Our Gallery page showcases recent projects. You can also follow us on Instagram for behind-the-scenes content and new designs."
+  },
+]
+```
+
+Page layout: hero heading + subheading, then full accordion. End with a CTA block: "Still have questions? [Contact Us]".
+
+---
