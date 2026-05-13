@@ -41,9 +41,7 @@ export default function Footer() {
             <h3 className="font-title-md text-title-md text-on-surface font-semibold">Help</h3>
             <div className="flex flex-col gap-3">
               <Link className="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="/contact">Contact</Link>
-              <Link className="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="/faq">FAQ</Link>
               <Link className="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="/refund-policy">Refund Policy</Link>
-              <Link className="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="/terms">Terms of Service</Link>
             </div>
           </div>
 
