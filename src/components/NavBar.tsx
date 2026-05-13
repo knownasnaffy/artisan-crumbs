@@ -9,7 +9,7 @@ export default function NavBar() {
         </div>
         <div className="hidden md:flex items-center gap-gutter">
           <Link
-            className="text-primary font-bold border-b-2 border-primary pb-1 font-label-md text-label-md hover:text-primary transition-colors duration-300 cursor-pointer active:scale-95 transition-transform"
+            className="text-primary font-bold border-b-2 border-primary py-1 font-label-md text-label-md hover:text-primary transition-colors duration-300 cursor-pointer active:scale-95 transition-transform"
             href="/"
           >
             Home

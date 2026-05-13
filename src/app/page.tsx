@@ -35,11 +35,10 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="flex justify-center py-8">
-        <span className="material-symbols-outlined text-primary/30 text-4xl">grain</span>
-      </div>
-
       <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-section-gap">
+        <div className="flex justify-center pb-4">
+          <span className="material-symbols-outlined text-primary/30 text-4xl">grain</span>
+        </div>
         <div className="text-center mb-16">
           <h2 className="font-headline-md text-headline-md text-primary mb-4">Our Best Sellers</h2>
           <div className="h-1 w-24 bg-primary-container mx-auto rounded-full"></div>

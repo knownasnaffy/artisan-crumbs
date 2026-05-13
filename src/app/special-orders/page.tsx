@@ -60,7 +60,7 @@ export default function SpecialOrders() {
         </div>
       </section>
 
-      <section className="py-section-gap bg-surface-container-lowest" id="inquiry-form">
+      <section className="py-section-gap bg-surface-container-lowest scroll-mt-16" id="inquiry-form">
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <div className="space-y-8">
