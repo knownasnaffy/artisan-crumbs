@@ -1,11 +1,13 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
 
   // Close nav on escape key press
   useEffect(() => {
@@ -53,7 +55,7 @@ export default function NavBar() {
           {navLinks.map((link) => (
             <Link
               key={link.name}
-              className="text-on-surface-variant font-medium font-label-md text-label-md hover:text-primary transition-colors duration-300 cursor-pointer active:scale-95 border-b-2 border-transparent hover:border-primary py-1"
+              className={`text-on-surface-variant font-medium font-label-md text-label-md hover:text-primary transition-colors duration-300 cursor-pointer active:scale-95 border-b-2 py-1 ${pathname === link.href ? 'border-primary' : 'border-transparent hover:border-primary'}`}
               href={link.href}
             >
               {link.name}
@@ -108,7 +110,7 @@ export default function NavBar() {
               {navLinks.map((link) => (
                 <Link
                   key={link.name}
-                  className="text-on-surface text-title-md font-medium hover:text-primary transition-colors py-2 border-b border-outline-variant/30"
+                  className={`text-title-md font-medium hover:text-primary transition-colors py-2 border-b border-outline-variant/30 ${pathname === link.href ? 'text-primary' : 'text-on-surface'}`}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
                 >
