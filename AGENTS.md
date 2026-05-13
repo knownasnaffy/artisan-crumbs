@@ -1,4 +1,5 @@
-Your task is to create a Next.js app from the given screen specifications in
-./docs/stitch/* folders. Make sure the app is responsive accros both mobile and
-desktop screens. Extract repeating parts into shared components like the navbar
-and the footer.
+<!-- BEGIN:nextjs-agent-rules -->
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
+<!-- END:nextjs-agent-rules -->
