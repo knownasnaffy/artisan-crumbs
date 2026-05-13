@@ -16,7 +16,7 @@ The assessment is based on the current live pages and implemented routes:
 
 ## Executive Summary
 
-The website is visually attractive, but it currently behaves more like a design mockup than a credible, conversion-ready business portfolio website. It presents polished bakery imagery and pleasant styling, but it lacks the substance, trust signals, functional pathways, and business information that customers typically need before they are willing to enquire, order, or book.
+The website is visually attractive, but it currently behaves more like a design mockup than a credible, conversion-ready business portfolio website. It presents polished bakery imagery and pleasant styling, but it lacks the substance, trust signals, functional pathways, and business information that customers typically need before they are willing to inquire, order, or book.
 
 The largest issues are:
 
@@ -28,7 +28,7 @@ The largest issues are:
 6. **Accessibility and usability are underdeveloped**, especially for mobile users and users relying on keyboard or assistive technology.
 7. **The site is technically fragile in places**, including heavy use of unoptimized remote images and third-party-hosted assets.
 
-In its current state, the site can create a decent first impression visually, but it is not yet strong enough to perform as a professional business portfolio site that reliably builds trust and drives enquiries or sales.
+In its current state, the site can create a decent first impression visually, but it is not yet strong enough to perform as a professional business portfolio site that reliably builds trust and drives inquiries or sales.
 
 ---
 
@@ -76,7 +76,7 @@ The inquiry form on the Special Orders page is visually present, but it is effec
 - there is no validation feedback,
 - there is no error handling,
 - there is no consent or disclosure near submission,
-- and there is no evidence that the enquiry will actually be received.
+- and there is no evidence that the inquiry will actually be received.
 
 **Why this matters:**
 
@@ -215,7 +215,7 @@ Instead, the site spreads attention across multiple vague calls to action withou
 
 ### 2.3 No friction-reduction content around conversion
 
-The site does not answer the practical questions users ask before enquiring:
+The site does not answer the practical questions users ask before inquiring:
 
 - What is the starting price?
 - How far in advance should I book?
@@ -505,7 +505,7 @@ Examples:
 
 After viewing products or gallery items, the user is not consistently guided toward:
 
-- enquiry,
+- inquiry,
 - booking,
 - pricing,
 - or checkout.
@@ -812,7 +812,7 @@ The site would be much stronger if it also included more of the following:
 - trust seals or hygiene/certification info,
 - downloadable brochure or PDF menu,
 - clearer urgency messaging for bookings,
-- confirmation messaging after enquiry,
+- confirmation messaging after inquiry,
 - accessibility improvements,
 - and complete page metadata for every route.
 
@@ -823,7 +823,7 @@ The site would be much stronger if it also included more of the following:
 ### Critical
 
 - Fix all dead-end CTA buttons
-- Make the enquiry form truly functional
+- Make the inquiry form truly functional
 - Replace broken footer links or remove them until pages exist
 - Add real contact and fulfillment information
 - Restore full mobile navigation
@@ -863,7 +863,7 @@ It does **not yet succeed** at proving:
 
 - that the business is fully real and active,
 - that the offerings are easy to understand,
-- that the site can handle enquiries reliably,
+- that the site can handle inquiries reliably,
 - that the brand is differentiated,
 - or that a customer can confidently move from interest to action.
 
