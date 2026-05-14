@@ -1,5 +1,3 @@
-Read the implementation plan at `./docs/plan.md` before continuing with anything.
-
 <!-- BEGIN:nextjs-agent-rules -->
 # This is NOT the Next.js you know
 
